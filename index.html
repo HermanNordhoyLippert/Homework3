@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bulma -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+
+        <!-- Custom JavaScript -->
+        <script src="js/script.js"></script>
+
+        <!-- Underscore JS -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+
+        <title>Homework 3</title>
+	</head>
+	<body>
+        <main>
+            <div class="container">
+                <div class="columns">
+                    <div id="main" class="column has-text-centered">
+                        <p id="name" class="subtitle is-size-1 has-text-info"></p>
+                        <p id="country" class="title is-size-6 has-text-link"></p>
+                        <div id="icon"><img id="wicon" src="#" alt="Weather icon"></div>
+                        <p id="description" class="subtitle is-size-6 has-text-grey"></p>
+                        <hr />
+                        <div class="main_header columns is-centered">
+                            <div class="column is-2 title is-size-6 has-text-grey">Temperature</div>
+                            <div class="column is-2 title is-size-6 has-text-grey">Max</div>
+                            <div class="column is-2 title is-size-6 has-text-grey">Min</div>
+                        </div>
+                        <div class="columns is-centered">
+                            <div id="temp" class="column is-2 subtitle is-size-5">1</div>
+                            <div id="max" class="column is-2 subtitle is-size-5">2</div>
+                            <div id="min" class="column is-2 subtitle is-size-5">3</div>
+                        </div>
+                        <hr />
+                        <div class="main_header columns is-centered">
+                            <div class="column is-2 title is-size-6 has-text-grey">Humidity</div>
+                            <div class="column is-2 title is-size-6 has-text-grey">Pressure</div>
+                            <div class="column is-2 title is-size-6 has-text-grey">Wind Speed</div>
+                        </div>
+                        <div class="columns is-centered">
+                            <div id="humidity" class="column is-2 subtitle is-size-5">1</div>
+                            <div id="pressure" class="column is-2 subtitle is-size-5">2</div>
+                            <div id="speed" class="column is-2 subtitle is-size-5">3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div id="search" class="column has-text-centered">
+                        <p id="search_p" class="subtitle is-size-5 has-text-grey">
+                            Search:
+                        </p>
+                        <input id="user_input" class="input is-size-5" type="text" placeholder="Location:" onfocus="this.value=''" value=""/>
+                        <p id="error" class="subtitle is-size-5 has-text-danger">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+	</body>
+</html>
+
+<!--
+
+<p class="subtitle is-size-3">
+    Location:
+</p>
+<input id="user_input" class="input is-size-5" type="text" placeholder="City" onfocus="this.value=''" value=""/>
+
+-->
